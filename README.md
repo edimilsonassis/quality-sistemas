@@ -1,4 +1,4 @@
-# Teste - Qualty Sistemas
+# Teste - Quality Sistemas
 
 Neste caso, optei por utilizar o framework **Lumen** devido à sua leveza e alta velocidade, embora ele ofereça menos recursos em comparação com o **Laravel**.
 
