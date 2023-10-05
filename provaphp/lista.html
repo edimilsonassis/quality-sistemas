@@ -1,0 +1,216 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html"; charset="UTF-8" />
+
+<link type="text/css" rel="stylesheet" href="css/principal.css" />
+
+<title>Cadastro de Pessoas</title>
+</head>
+
+<body>
+
+<div id="conteudoGeral">
+
+    <div id="topoGeral">
+    	<div id="logoTopo" onclick="location.href='index.html'" style="cursor:pointer;"></div>
+    	<div id="dirTopo"></div>
+    </div>
+    
+    <div id="baixoGeral">
+    
+    	<div id="menuEsq">
+            <div id="titMenu">Menu de Opções</div>
+            <a href="index.html">Início</a> 
+            <a href="lista.html">Listar Cadastros</a>
+            <a href="form.html">Incluir Novo</a>
+        </div>
+        
+        <div id="conteudoDir">
+
+            <div id="listaPessoas">
+            	<h1>Cadastros</h1>
+
+				<a href="javascript:;" class="btPadraoExcluir">Excluir</a>
+                
+                <table id="tLista" cellpadding="0" cellspacing="0" border="0">
+                
+                    <tr>
+                        <th width="5%"><input type="checkbox" class="checkbox" id="select_all" /></th>
+                        <th width="5%">ID</th>
+                        <th width="5%">Foto</th>
+                        <th class="tL">Nome</th>
+                        <th width="15%">Dt Nasc</th>
+                        <th width="25%">Email</th>
+                        <th width="7%">Dep</th>
+                        <th width="7%">St</th>
+                    </tr>
+
+                    <tr bgcolor="#cddeeb">
+                    	<td align="center" style="border-left:0;"><input name="chkStatus" type="checkbox" class="checkbox" value="" id="chk_0" /></td>
+                    	<td align="center">1</td>
+                        <td align="center"><img src="images/fotoCadastro.png" width="20" height="20" /></td>
+                    	<td><a href="editar.html" class="linkUser" title="Clique aqui para editar este cadastro." id="nm_">Fulado de Tal</a></td>
+                    	<td align="center">31/12/1970</td>
+                        <td align="center">email@provedor.com</td>
+                        <td align="center">
+                        	<a href="dependentes.html" class="btAdicionar" title="Adicionar dependentes para este cadastro."></a>
+                        </td>
+                    	<td align="center">
+                        	<a href="javascript:;" class="btVerde" title="Ativar/Desativar este cadastro." id="bol_0"></a>
+                        </td>
+                    </tr>
+                    <tr bgcolor="#f0f0f0">
+                    	<td align="center" style="border-left:0;"><input name="chkStatus" type="checkbox" class="checkbox" value="" id="chk_0" /></td>
+                    	<td align="center">2</td>
+                        <td align="center"><img src="images/fotoCadastro.png" width="20" height="20" /></td>
+                    	<td><a href="editar.html" class="linkUser" title="Clique aqui para editar este cadastro." id="nm_">Fulado de Tal</a></td>
+                    	<td align="center">31/12/1970</td>
+                        <td align="center">email@provedor.com</td>
+                        <td align="center">
+                        	<a href="dependentes.html" class="btAdicionar" title="Adicionar dependentes para este cadastro."></a>
+                        </td>
+                    	<td align="center">
+                        	<a href="javascript:;" class="btCinza" title="Ativar/Desativar este cadastro." id="bol_0"></a>
+                        </td>
+                    </tr>
+                    <tr bgcolor="#cddeeb">
+                    	<td align="center" style="border-left:0;"><input name="chkStatus" type="checkbox" class="checkbox" value="" id="chk_0" /></td>
+                    	<td align="center">3</td>
+                        <td align="center"><img src="images/fotoCadastro.png" width="20" height="20" /></td>
+                    	<td><a href="editar.html" class="linkUser" title="Clique aqui para editar este cadastro." id="nm_">Fulado de Tal</a></td>
+                    	<td align="center">31/12/1970</td>
+                        <td align="center">email@provedor.com</td>
+                        <td align="center">
+                        	<a href="dependentes.html" class="btAdicionar" title="Adicionar dependentes para este cadastro."></a>
+                        </td>
+                    	<td align="center">
+                        	<a href="javascript:;" class="btVerde" title="Ativar/Desativar este cadastro." id="bol_0"></a>
+                        </td>
+                    </tr>
+                    <tr bgcolor="#f0f0f0">
+                    	<td align="center" style="border-left:0;"><input name="chkStatus" type="checkbox" class="checkbox" value="" id="chk_0" /></td>
+                    	<td align="center">4</td>
+                        <td align="center"><img src="images/fotoCadastro.png" width="20" height="20" /></td>
+                    	<td><a href="editar.html" class="linkUser" title="Clique aqui para editar este cadastro." id="nm_">Fulado de Tal</a></td>
+                    	<td align="center">31/12/1970</td>
+                        <td align="center">email@provedor.com</td>
+                        <td align="center">
+                        	<a href="dependentes.html" class="btAdicionar" title="Adicionar dependentes para este cadastro."></a>
+                        </td>
+                    	<td align="center">
+                        	<a href="javascript:;" class="btCinza" title="Ativar/Desativar este cadastro." id="bol_0"></a>
+                        </td>
+                    </tr>
+                    <tr bgcolor="#cddeeb">
+                    	<td align="center" style="border-left:0;"><input name="chkStatus" type="checkbox" class="checkbox" value="" id="chk_0" /></td>
+                    	<td align="center">5</td>
+                        <td align="center"><img src="images/fotoCadastro.png" width="20" height="20" /></td>
+                    	<td><a href="editar.html" class="linkUser" title="Clique aqui para editar este cadastro." id="nm_">Fulado de Tal</a></td>
+                    	<td align="center">31/12/1970</td>
+                        <td align="center">email@provedor.com</td>
+                        <td align="center">
+                        	<a href="dependentes.html" class="btAdicionar" title="Adicionar dependentes para este cadastro."></a>
+                        </td>
+                    	<td align="center">
+                        	<a href="javascript:;" class="btVerde" title="Ativar/Desativar este cadastro." id="bol_0"></a>
+                        </td>
+                    </tr>
+                    <tr bgcolor="#f0f0f0">
+                    	<td align="center" style="border-left:0;"><input name="chkStatus" type="checkbox" class="checkbox" value="" id="chk_0" /></td>
+                    	<td align="center">6</td>
+                        <td align="center"><img src="images/fotoCadastro.png" width="20" height="20" /></td>
+                    	<td><a href="editar.html" class="linkUser" title="Clique aqui para editar este cadastro." id="nm_">Fulado de Tal</a></td>
+                    	<td align="center">31/12/1970</td>
+                        <td align="center">email@provedor.com</td>
+                        <td align="center">
+                        	<a href="dependentes.html" class="btAdicionar" title="Adicionar dependentes para este cadastro."></a>
+                        </td>
+                    	<td align="center">
+                        	<a href="javascript:;" class="btCinza" title="Ativar/Desativar este cadastro." id="bol_0"></a>
+                        </td>
+                    </tr>
+                    <tr bgcolor="#cddeeb">
+                    	<td align="center" style="border-left:0;"><input name="chkStatus" type="checkbox" class="checkbox" value="" id="chk_0" /></td>
+                    	<td align="center">7</td>
+                        <td align="center"><img src="images/fotoCadastro.png" width="20" height="20" /></td>
+                    	<td><a href="editar.html" class="linkUser" title="Clique aqui para editar este cadastro." id="nm_">Fulado de Tal</a></td>
+                    	<td align="center">31/12/1970</td>
+                        <td align="center">email@provedor.com</td>
+                        <td align="center">
+                        	<a href="dependentes.html" class="btAdicionar" title="Adicionar dependentes para este cadastro."></a>
+                        </td>
+                    	<td align="center">
+                        	<a href="javascript:;" class="btVerde" title="Ativar/Desativar este cadastro." id="bol_0"></a>
+                        </td>
+                    </tr>
+                    <tr bgcolor="#f0f0f0">
+                    	<td align="center" style="border-left:0;"><input name="chkStatus" type="checkbox" class="checkbox" value="" id="chk_0" /></td>
+                    	<td align="center">8</td>
+                        <td align="center"><img src="images/fotoCadastro.png" width="20" height="20" /></td>
+                    	<td><a href="editar.html" class="linkUser" title="Clique aqui para editar este cadastro." id="nm_">Fulado de Tal</a></td>
+                    	<td align="center">31/12/1970</td>
+                        <td align="center">email@provedor.com</td>
+                        <td align="center">
+                        	<a href="dependentes.html" class="btAdicionar" title="Adicionar dependentes para este cadastro."></a>
+                        </td>
+                    	<td align="center">
+                        	<a href="javascript:;" class="btCinza" title="Ativar/Desativar este cadastro." id="bol_0"></a>
+                        </td>
+                    </tr>
+                    <tr bgcolor="#cddeeb">
+                    	<td align="center" style="border-left:0;"><input name="chkStatus" type="checkbox" class="checkbox" value="" id="chk_0" /></td>
+                    	<td align="center">9</td>
+                        <td align="center"><img src="images/fotoCadastro.png" width="20" height="20" /></td>
+                    	<td><a href="editar.html" class="linkUser" title="Clique aqui para editar este cadastro." id="nm_">Fulado de Tal</a></td>
+                    	<td align="center">31/12/1970</td>
+                        <td align="center">email@provedor.com</td>
+                        <td align="center">
+                        	<a href="dependentes.html" class="btAdicionar" title="Adicionar dependentes para este cadastro."></a>
+                        </td>
+                    	<td align="center">
+                        	<a href="javascript:;" class="btVerde" title="Ativar/Desativar este cadastro." id="bol_0"></a>
+                        </td>
+                    </tr>
+                    <tr bgcolor="#f0f0f0">
+                    	<td align="center" style="border-left:0;"><input name="chkStatus" type="checkbox" class="checkbox" value="" id="chk_0" /></td>
+                    	<td align="center">10</td>
+                        <td align="center"><img src="images/fotoCadastro.png" width="20" height="20" /></td>
+                    	<td><a href="editar.html" class="linkUser" title="Clique aqui para editar este cadastro." id="nm_">Fulado de Tal</a></td>
+                    	<td align="center">31/12/1970</td>
+                        <td align="center">email@provedor.com</td>
+                        <td align="center">
+                        	<a href="dependentes.html" class="btAdicionar" title="Adicionar dependentes para este cadastro."></a>
+                        </td>
+                    	<td align="center">
+                        	<a href="javascript:;" class="btCinza" title="Ativar/Desativar este cadastro." id="bol_0"></a>
+                        </td>
+                    </tr>
+
+
+                </table>
+            	
+            </div>
+
+            <div id="paginacao">
+                <a href="" class="btSeta1"></a> <div id="pags">1 de 10</div> <a href="" class="btSeta2"></a> 
+                <select id="paginas">
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                </select>
+            </div>
+            
+
+
+        </div> <!-- FIM CONTEUDO DIR -->
+    
+    </div>
+
+</div>
+
+</body>
+</html>
+
